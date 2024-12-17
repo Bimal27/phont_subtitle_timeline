@@ -117,6 +117,7 @@
 @media screen and (max-width: 650px) {
   .app__navbar {
     padding: 1rem;
+    width: 100%;
   }
 
   .app__navbar-login {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css'
 
-export default function sidebar({ onOpenModal }) {
+export default function sidebar() {
   return (
     <div className='side_wrap'>
         <div style={{  textAlign: 'center', marginTop:'16px'}}>

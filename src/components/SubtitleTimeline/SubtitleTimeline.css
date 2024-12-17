@@ -21,7 +21,7 @@
   position: absolute;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 4px;
+  /* padding: 4px; */
   width: 420px;
   height: 300px;
   color: white;
@@ -65,4 +65,18 @@
   font-weight: bold;
   left: 10%;
   text-wrap: wrap;
+}
+
+@media screen and (max-width: 650px) {
+  .subtitle-timeline-wrap {
+    width: 100vw;
+    left: 0;
+  }
+  .subtitle-timeline {
+    width: 90vw;
+    height: 50vh;
+  }
+  .playback-controls {
+    margin-top: 68px;
+  }
 }
